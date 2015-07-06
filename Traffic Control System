@@ -1,0 +1,8 @@
+http://www.careercup.com/question?id=21729663
+
+air traffic control system is a classic example of mediator design pattern. 
+1) Define an interface for mediator. 
+2) Define another interface for client. 
+3) Define concrete impl for the mediator interface 
+4) Define concrete impl for the flight interface. 
+Each flight object needs to register with the mediator.
