@@ -1,4 +1,4 @@
-Engineering Blogs
+###<a name='blog'>Engineering Blogs</a>
 
 * [High Scalability](http://highscalability.com/)
 * [The GitHub Blog](https://github.com/blog/category/engineering)
@@ -28,8 +28,6 @@ Engineering Blogs
 * 
 
 ###<a name='system'>Products and Systems:</a>
-
-The following papers/articles/slides can help you to understand the general design idea of different real products and systems. 
 
 * [MapReduce: Simplied Data Processing on Large Clusters](http://static.googleusercontent.com/media/research.google.com/zh-CN/us/archive/mapreduce-osdi04.pdf)
 * [Bigtable: A Distributed Storage System for Structured Data](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/chang06bigtable.pdf)
