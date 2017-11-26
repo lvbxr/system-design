@@ -1,0 +1,6 @@
+https://en.wikipedia.org/wiki/Geohash
+https://en.wikipedia.org/wiki/R-tree
+http://massivetechinterview.blogspot.com/2015/06/poi-geohash.html
+https://gis.stackexchange.com/questions/18330/using-geohash-for-proximity-searches
+https://www.factual.com/blog/how-geohashes-work
+
