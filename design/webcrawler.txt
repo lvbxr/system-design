@@ -1,1 +1,17 @@
 https://www.youtube.com/watch?v=--4UgUPCuFM
+
+设计 网页爬虫，给一千台机器，每台机器的带宽有限，每个url只能爬一次
+一千个机器， 维基百科 爬虫问题， 机器网络很差，然后每个网页只能爬一边
+
+download all urls from 1000 hosts. Imagine all the urls are graph. Requirement: Each host has bad internet connection among each other, Has to download url exactly once.
+
+
+use 10k IOT machine (limited cpu, bandwidth) to crawl wikipedia. 1. don't repeat same URL; 2. Minimize traffic. 3. save webpage locally (no storage problem), Started with a queue in one machine, discuss traffic up/down, distributed memory design, machine down, health check, backup, consistent hashing, replica to master promotion
+
+这题之后还问，之前那题是在hacker的角度思考，如果现在让你站在网站维护人员的角度，你该怎么防止有人crawl你的网站，不停的给你发request。答用rate limiter，大叔继续问还能用什么方法，怎么区分是machine还是人发过来的request。反正最后感觉他要问的是怎样防止服务器的load过重。这一轮跪的很彻底，稀碎。。。
+
+
+早看到这个帖子就好，我也被问了这个crawler的问题，纠缠了十几分钟后突然意识到这完全是个brain teaser式的system design，然后想到了类似UUID hashing，算是蒙混过关，又问了两个follow up问题，第二个没想好时间就到了.
+1. 如何判断crawling结束
+2. 如果一半机器比另一半快怎样分配
+
