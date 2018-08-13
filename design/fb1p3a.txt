@@ -22,7 +22,6 @@
 
 
 
-
 [url=http://www.1point3acres.com/bbs/ ... ewthread&tid=287736](4)[/url] 设计轮：网页event售票系统， 随便聊聊画画conponent图和数据表，讲讲哪里容易failure，说说API，信用卡信息谁处理，遇到大流量怎么分流，俄国哥们儿进来的时候脸绷得挺吓人，聊完了出去的时候挺开心的，估计还可以
 
 
@@ -36,11 +35,10 @@
 
 
 
-
 [url=http://www.1point3acres.com/bbs/ ... ewthread&tid=218914](7)[/url]
 Architecture Design, 如何design一个在facebook上make comment的method，一个人发comment，同时在网页上浏览的人都能看到
 
-来源一亩.三分地论坛. 
+
 
 [url=http://www.1point3acres.com/bbs/ ... ewthread&tid=287639](8)[/url]. 围观我们@1point 3 acres
 [url=http://www.1point3acres.com/bbs/ ... ewthread&tid=287223](8.1)[/url]
@@ -48,13 +46,13 @@ Architecture Design, 如何design一个在facebook上make comment的method，一
 设计 网页爬虫，给一千台机器，每台机器的带宽有限，每个url只能爬一次
 一千个机器， 维基百科 爬虫问题， 机器网络很差，然后每个网页只能爬一边
 
-. more info on 1point3acres
+
 download all urls from 1000 hosts. Imagine all the urls are graph. Requirement: Each host has bad internet connection among each other, Has to download url exactly once.
 
 
 use 10k IOT machine (limited cpu, bandwidth) to crawl wikipedia. 1. don't repeat same URL; 2. Minimize traffic. 3. save webpage locally (no storage problem), Started with a queue in one machine, discuss traffic up/down, distributed memory design, machine down, health check, backup, consistent hashing, replica to master promotion
 
-. From 1point 3acres bbs
+
 这题之后还问，之前那题是在hacker的角度思考，如果现在让你站在网站维护人员的角度，你该怎么防止有人crawl你的网站，不停的给你发request。答用rate limiter，大叔继续问还能用什么方法，怎么区分是machine还是人发过来的request。反正最后感觉他要问的是怎样防止服务器的load过重。这一轮跪的很彻底，稀碎。。。
 
 
@@ -94,7 +92,7 @@ privacy setting. 说是每个user有一个friend list, user可以发Post, 问如
 [url=http://www.1point3acres.com/bbs/ ... ewthread&tid=287545](11)[/url]
 client 给 server 传输文件 的系统。 一个/多个clients <-> 一个／多个 server
 
-.1point3acres网
+
 [url=http://www.1point3acres.com/bbs/ ... ewthread&tid=283969](12)[/url]
 [url=http://www.1point3acres.com/bbs/ ... ewthread&tid=280598](12.1)[/url]
 [url=http://www.1point3acres.com/bbs/ ... ewthread&tid=280875](12.2)[/url]
