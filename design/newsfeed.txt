@@ -1,4 +1,5 @@
 //http://blog.gainlo.co/index.php/2016/03/29/design-news-feed-system-part-1-system-design-interview-questions/
+//http://blog.gainlo.co/index.php/2016/04/05/design-news-feed-system-part-2/
 
 Design News Feed System (Part 1)
 If you have followed our previous posts on system design interview questions, you might be surprised at how common news feed system is.
